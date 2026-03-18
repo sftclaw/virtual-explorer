@@ -25,6 +25,9 @@
 
   // ===== INIT =====
   async function init() {
+    // Explicitly hide modal on init
+    document.getElementById('placeModal').hidden = true;
+
     // Load data
     try {
       const res = await fetch('data/places.json');
@@ -219,7 +222,10 @@
   // ===== PLACE MODAL =====
   window.openPlace = function(id) {
     const place = allPlaces.find(p => p.id === id);
-    if (!place) return;
+    if (!place) {
+      console.warn('Place not found:', id);
+      return;
+    }
     currentPlace = place;
 
     const visited = isVisited(id);
