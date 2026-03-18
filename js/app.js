@@ -26,7 +26,7 @@
   // ===== INIT =====
   async function init() {
     // Explicitly hide modal on init
-    document.getElementById('placeModal').hidden = true;
+    document.getElementById('placeModal').style.display = 'none';
 
     // Load data
     try {
@@ -264,12 +264,12 @@
       document.getElementById('visitHistory').hidden = true;
     }
 
-    document.getElementById('placeModal').hidden = false;
+    document.getElementById('placeModal').style.display = 'flex';
     document.body.style.overflow = 'hidden';
   };
 
   window.closeModal = function() {
-    document.getElementById('placeModal').hidden = true;
+    document.getElementById('placeModal').style.display = 'none';
     document.body.style.overflow = '';
     currentPlace = null;
   };
