@@ -1,0 +1,419 @@
+[
+  {
+    "id": "colosseum",
+    "name": "Colosseum",
+    "nameLocal": "Colosseo",
+    "location": "Rome, Italy",
+    "country": "Italy",
+    "region": "Europe",
+    "type": ["Ancient", "Architecture", "UNESCO"],
+    "description": "The largest ancient amphitheatre ever built, witnessing gladiatorial contests and public spectacles for over 50,000 spectators.",
+    "coordinates": { "lat": 41.8902, "lng": 12.4922 },
+    "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=400&q=80",
+    "tours": [
+      { "provider": "Google Street View", "url": "https://www.google.com/maps/@41.8902,12.4922,3a,75y,0h,90t/data=!3m6!1e1!3m4!1sQ1M4tg_7rFKkRrKqMBM2_g!2e0!7i16384!8i8192", "type": "streetview" },
+      { "provider": "Google Arts & Culture", "url": "https://artsandculture.google.com/asset/the-colosseum/BgFzNZHhIaQOSw", "type": "web" },
+      { "provider": "YouTube 360°", "url": "https://www.youtube.com/watch?v=Y4mMhSkz6NE", "type": "video" }
+    ]
+  },
+  {
+    "id": "machu-picchu",
+    "name": "Machu Picchu",
+    "nameLocal": "Machu Picchu",
+    "location": "Cusco Region, Peru",
+    "country": "Peru",
+    "region": "South America",
+    "type": ["Ancient", "UNESCO", "Wonders"],
+    "description": "A 15th-century Inca citadel set high in the Andes Mountains, the most iconic symbol of the Inca Empire.",
+    "coordinates": { "lat": -13.1631, "lng": -72.5450 },
+    "image": "https://images.unsplash.com/photo-1587595431973-160d0d94add1?w=400&q=80",
+    "tours": [
+      { "provider": "Google Street View", "url": "https://www.google.com/maps/@-13.1631,-72.5450,3a,75y,0h,90t/data=!3m6!1e1!3m4!1s0x916e61e45c3d1f7b!2e0!7i16384!8i8192", "type": "streetview" },
+      { "provider": "YouTube 360°", "url": "https://www.youtube.com/watch?v=8jTCYQa0bHI", "type": "video" },
+      { "provider": "AirPano", "url": "https://www.airpano.com/360photo/machu-picchu-peru/", "type": "web" }
+    ]
+  },
+  {
+    "id": "great-wall",
+    "name": "Great Wall of China",
+    "nameLocal": "万里长城",
+    "location": "Beijing, China",
+    "country": "China",
+    "region": "Asia",
+    "type": ["Ancient", "UNESCO", "Wonders"],
+    "description": "An ancient series of walls and fortifications stretching over 13,000 miles, built over centuries to protect China from invasions.",
+    "coordinates": { "lat": 40.4319, "lng": 116.5704 },
+    "image": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=400&q=80",
+    "tours": [
+      { "provider": "Google Street View", "url": "https://www.google.com/maps/@40.4319,116.5704,3a,75y,0h,90t/data=!3m6!1e1!3m4!1s6fL8vj2mT5h1nVmVbTQf5A!2e0!7i16384!8i8192", "type": "streetview" },
+      { "provider": "YouTube 360°", "url": "https://www.youtube.com/watch?v=0zHxFMqJcL4", "type": "video" }
+    ]
+  },
+  {
+    "id": "pyramids-giza",
+    "name": "Pyramids of Giza",
+    "nameLocal": "أهرامات الجيزة",
+    "location": "Giza, Egypt",
+    "country": "Egypt",
+    "region": "Africa",
+    "type": ["Ancient", "Wonders", "Architecture"],
+    "description": "The oldest and largest of the three pyramids in the Giza pyramid complex, the last remaining wonder of the ancient world.",
+    "coordinates": { "lat": 29.9792, "lng": 31.1342 },
+    "image": "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?w=400&q=80",
+    "tours": [
+      { "provider": "Google Street View", "url": "https://www.google.com/maps/@29.9792,31.1342,3a,75y,0h,90t/data=!3m6!1e1!3m4!1s0x14584567358e813b!2e0!7i16384!8i8192", "type": "streetview" },
+      { "provider": "YouTube 360°", "url": "https://www.youtube.com/watch?v=HxO0J0c0fMg", "type": "video" },
+      { "provider": "Google Arts & Culture", "url": "https://artsandculture.google.com/asset/great-pyramid-of-giza/sgEGsH9jMYiQOQ", "type": "web" }
+    ]
+  },
+  {
+    "id": "taj-mahal",
+    "name": "Taj Mahal",
+    "nameLocal": "ताज महल",
+    "location": "Agra, India",
+    "country": "India",
+    "region": "Asia",
+    "type": ["Architecture", "UNESCO", "Mughal"],
+    "description": "An ivory-white marble mausoleum built by Mughal emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal.",
+    "coordinates": { "lat": 27.1751, "lng": 78.0421 },
+    "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=400&q=80",
+    "tours": [
+      { "provider": "Google Street View", "url": "https://www.google.com/maps/@27.1751,78.0421,3a,75y,0h,90t/data=!3m6!1e1!3m4!1sXs5tYsXwJkC7eJhV8nKw5Q!2e0!7i16384!8i8192", "type": "streetview" },
+      { "provider": "YouTube 360°", "url": "https://www.youtube.com/watch?v=6t9E9MI_56s", "type": "video" }
+    ]
+  },
+  {
+    "id": "petra",
+    "name": "Petra",
+    "nameLocal": "البتراء",
+    "location": "Ma'an, Jordan",
+    "country": "Jordan",
+    "region": "Middle East",
+    "type": ["Ancient", "UNESCO", "Wonders"],
+    "description": "A famous archaeological site known as the 'Rose City' for the color of the rock, carved directly into vibrant red sandstone cliffs.",
+    "coordinates": { "lat": 30.3285, "lng": 35.4444 },
+    "image": "https://images.unsplash.com/photo-1579606032821-4e6161c81571?w=400&q=80",
+    "tours": [
+      { "provider": "Google Street View", "url": "https://www.google.com/maps/@30.3285,35.4444,3a,75y,0h,90t/data=!3m6!1e1!3m4!1sAF1QipMXkPqLkVYJ2n5F6x8Y3Z1WqH7T9K2L8M3N4P5Q", "type": "streetview" },
+      { "provider": "YouTube 360°", "url": "https://www.youtube.com/watch?v=7PE-3BqUYMc", "type": "video" }
+    ]
+  },
+  {
+    "id": "sistine-chapel",
+    "name": "Sistine Chapel",
+    "nameLocal": "Cappella Sistina",
+    "location": "Vatican City",
+    "country": "Vatican City",
+    "region": "Europe",
+    "type": ["Renaissance", "Art", "UNESCO"],
+    "description": "Famous for its Renaissance frescoes by Michelangelo, especially The Last Judgment on the altar wall and the ceiling.",
+    "coordinates": { "lat": 41.9029, "lng": 12.4545 },
+    "image": "https://images.unsplash.com/photo-1577083552431-6e5fd01988ec?w=400&q=80",
+    "tours": [
+      { "provider": "Google Arts & Culture", "url": "https://artsandculture.google.com/asset/sistine-chapel/sgEGsH9jMYiQOQ", "type": "web" },
+      { "provider": "Google Street View", "url": "https://www.google.com/maps/@41.9029,12.4545,3a,75y,0h,90t/data=!3m6!1e1!3m4!1s0x132f619c7b2a5c8b!2e0!7i16384!8i8192", "type": "streetview" },
+      { "provider": "Musei Vaticani", "url": "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/tours-virtuali/elenco-tours-virtuali/tour-virtuale-della-cappella-sist.html", "type": "web" }
+    ]
+  },
+  {
+    "id": "acropolis",
+    "name": "Acropolis of Athens",
+    "nameLocal": "Ακρόπολη",
+    "location": "Athens, Greece",
+    "country": "Greece",
+    "region": "Europe",
+    "type": ["Ancient", "UNESCO", "Architecture"],
+    "description": "An ancient citadel containing the remains of several historically significant buildings, most famously the Parthenon.",
+    "coordinates": { "lat": 37.9715, "lng": 23.7267 },
+    "image": "https://images.unsplash.com/photo-1555993539-1732b0258235?w=400&q=80",
+    "tours": [
+      { "provider": "Google Street View", "url": "https://www.google.com/maps/@37.9715,23.7267,3a,75y,0h,90t/data=!3m6!1e1!3m4!1s0x14a1bd1f0c0e8b0b:0x7c5c5c5c5c5c5c5c!2e0!7i16384!8i8192", "type": "streetview" },
+      { "provider": "Google Arts & Culture", "url": "https://artsandculture.google.com/asset/acropolis-of-athens/BgFzNZHhIaQOSw", "type": "web" }
+    ]
+  },
+  {
+    "id": "angkor-wat",
+    "name": "Angkor Wat",
+    "nameLocal": "អង្គរវត្ត",
+    "location": "Siem Reap, Cambodia",
+    "country": "Cambodia",
+    "region": "Asia",
+    "type": ["Ancient", "UNESCO", "Temple"],
+    "description": "The largest religious monument in the world, originally constructed as a Hindu temple dedicated to Vishnu, later converted to Buddhist.",
+    "coordinates": { "lat": 13.4125, "lng": 103.8670 },
+    "image": "https://images.unsplash.com/photo-1569282073072-3bba92dd0ef1?w=400&q=80",
+    "tours": [
+      { "provider": "Google Street View", "url": "https://www.google.com/maps/@13.4125,103.8670,3a,75y,0h,90t/data=!3m6!1e1!3m4!1s0x311017d0e4b0c0b1:0x7c5c5c5c5c5c5c5c!2e0!7i16384!8i8192", "type": "streetview" },
+      { "provider": "YouTube 360°", "url": "https://www.youtube.com/watch?v=4YbQXzF8YHQ", "type": "video" },
+      { "provider": "AirPano", "url": "https://www.airpano.com/360photo/angkor-wat-temple-cambodia/", "type": "web" }
+    ]
+  },
+  {
+    "id": "roman-forum",
+    "name": "Roman Forum",
+    "nameLocal": "Foro Romano",
+    "location": "Rome, Italy",
+    "country": "Italy",
+    "region": "Europe",
+    "type": ["Ancient", "Architecture", "UNESCO"],
+    "description": "The center of day-to-day life in ancient Rome, filled with government buildings, temples, and public spaces.",
+    "coordinates": { "lat": 41.8925, "lng": 12.4853 },
+    "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=400&q=80",
+    "tours": [
+      { "provider": "Google Street View", "url": "https://www.google.com/maps/@41.8925,12.4853,3a,75y,0h,90t/data=!3m6!1e1!3m4!1s0x132f619c7b2a5c8b!2e0!7i16384!8i8192", "type": "streetview" }
+    ]
+  },
+  {
+    "id": "stonehenge",
+    "name": "Stonehenge",
+    "nameLocal": "Stonehenge",
+    "location": "Wiltshire, England",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "type": ["Ancient", "Mystery", "UNESCO"],
+    "description": "A prehistoric monument consisting of a ring of standing stones, built between 3000-2000 BC, with origins still debated.",
+    "coordinates": { "lat": 51.1789, "lng": -1.8262 },
+    "image": "https://images.unsplash.com/photo-1599833975787-5c143f373c30?w=400&q=80",
+    "tours": [
+      { "provider": "Google Street View", "url": "https://www.google.com/maps/@51.1789,-1.8262,3a,75y,0h,90t/data=!3m6!1e1!3m4!1s0x4874567890abcdef:0x1234567890abcdef!2e0!7i16384!8i8192", "type": "streetview" },
+      { "provider": "English Heritage 360°", "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/multimedia/virtual-tour/", "type": "web" }
+    ]
+  },
+  {
+    "id": "pompeii",
+    "name": "Pompeii",
+    "nameLocal": "Pompei",
+    "location": "Naples, Italy",
+    "country": "Italy",
+    "region": "Europe",
+    "type": ["Ancient", "UNESCO", "Archaeological"],
+    "description": "A Roman city buried by the eruption of Mount Vesuvius in 79 AD, preserved in volcanic ash for nearly 2,000 years.",
+    "coordinates": { "lat": 40.7491, "lng": 14.4847 },
+    "image": "https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?w=400&q=80",
+    "tours": [
+      { "provider": "Google Street View", "url": "https://www.google.com/maps/@40.7491,14.4847,3a,75y,0h,90t/data=!3m6!1e1!3m4!1s0x133b9d0e4b0c0b1a:0x7c5c5c5c5c5c5c5c!2e0!7i16384!8i8192", "type": "streetview" },
+      { "provider": "YouTube 360°", "url": "https://www.youtube.com/watch?v=nW1aN3dYJY8", "type": "video" }
+    ]
+  },
+  {
+    "id": "chichen-itza",
+    "name": "Chichén Itzá",
+    "nameLocal": "Chichén Itzá",
+    "location": "Yucatán, Mexico",
+    "country": "Mexico",
+    "region": "North America",
+    "type": ["Ancient", "Mayan", "UNESCO", "Wonders"],
+    "description": "A massive pre-Columbian city built by the Maya people, featuring the iconic El Castillo pyramid with astronomical significance.",
+    "coordinates": { "lat": 20.6843, "lng": -88.5678 },
+    "image": "https://images.unsplash.com/photo-1518638150340-f706e86654de?w=400&q=80",
+    "tours": [
+      { "provider": "Google Street View", "url": "https://www.google.com/maps/@20.6843,-88.5678,3a,75y,0h,90t/data=!3m6!1e1!3m4!1s0x0:0x0!2e0!7i16384!8i8192", "type": "streetview" },
+      { "provider": "YouTube 360°", "url": "https://www.youtube.com/watch?v=K7F9t3dMjJk", "type": "video" }
+    ]
+  },
+  {
+    "id": "eiffel-tower",
+    "name": "Eiffel Tower",
+    "nameLocal": "Tour Eiffel",
+    "location": "Paris, France",
+    "country": "France",
+    "region": "Europe",
+    "type": ["Architecture", "Iconic", "19th Century"],
+    "description": "A wrought-iron lattice tower on the Champ de Mars, built for the 1889 World's Fair, now the most visited paid monument in the world.",
+    "coordinates": { "lat": 48.8584, "lng": 2.2945 },
+    "image": "https://images.unsplash.com/photo-1511739001486-6bfe10ce65f4?w=400&q=80",
+    "tours": [
+      { "provider": "Google Street View", "url": "https://www.google.com/maps/@48.8584,2.2945,3a,75y,0h,90t/data=!3m6!1e1!3m4!1s0x47e66e1f06e2b70f:0x40b82c3688c9460!2e0!7i16384!8i8192", "type": "streetview" },
+      { "provider": "Official 3D Tour", "url": "https://www.toureiffel.paris/en/the-monument/virtual-tour", "type": "web" }
+    ]
+  },
+  {
+    "id": "sagrada-familia",
+    "name": "Sagrada Família",
+    "nameLocal": "Basílica de la Sagrada Família",
+    "location": "Barcelona, Spain",
+    "country": "Spain",
+    "region": "Europe",
+    "type": ["Architecture", "Religious", "Gaudí"],
+    "description": "Antoni Gaudí's unfinished masterpiece, a basilica under construction since 1882, combining Gothic and Art Nouveau forms.",
+    "coordinates": { "lat": 41.4036, "lng": 2.1744 },
+    "image": "https://images.unsplash.com/photo-1583422409516-2895a77efded?w=400&q=80",
+    "tours": [
+      { "provider": "Google Street View", "url": "https://www.google.com/maps/@41.4036,2.1744,3a,75y,0h,90t/data=!3m6!1e1!3m4!1s0x12a4a3f3f3f3f3f3:0x1234567890abcdef!2e0!7i16384!8i8192", "type": "streetview" },
+      { "provider": "Official Virtual Tour", "url": "https://sagradafamilia.org/en/visit/virtual-tour", "type": "web" }
+    ]
+  },
+  {
+    "id": "potala-palace",
+    "name": "Potala Palace",
+    "nameLocal": "པོ་ཏ་ལ།",
+    "location": "Lhasa, Tibet",
+    "country": "China",
+    "region": "Asia",
+    "type": ["Architecture", "Religious", "UNESCO"],
+    "description": "The former winter residence of the Dalai Lamas, a massive palace fortress sitting atop Red Mountain at 3,700m elevation.",
+    "coordinates": { "lat": 29.6557, "lng": 91.1176 },
+    "image": "https://images.unsplash.com/photo-1567604701062-24e498bea39e?w=400&q=80",
+    "tours": [
+      { "provider": "Google Street View", "url": "https://www.google.com/maps/@29.6557,91.1176,3a,75y,0h,90t/data=!3m6!1e1!3m4!1s0x0:0x0!2e0!7i16384!8i8192", "type": "streetview" }
+    ]
+  },
+  {
+    "id": "hagia-sophia",
+    "name": "Hagia Sophia",
+    "nameLocal": "Ayasofya",
+    "location": "Istanbul, Turkey",
+    "country": "Turkey",
+    "region": "Europe",
+    "type": ["Architecture", "Religious", "Byzantine", "UNESCO"],
+    "description": "A former Byzantine church and Ottoman mosque, now a mosque again, featuring one of the largest domes ever built in the ancient world.",
+    "coordinates": { "lat": 41.0086, "lng": 28.9802 },
+    "image": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?w=400&q=80",
+    "tours": [
+      { "provider": "Google Street View", "url": "https://www.google.com/maps/@41.0086,28.9802,3a,75y,0h,90t/data=!3m6!1e1!3m4!1s0x14cab715e7e44e8f:0x1234567890abcdef!2e0!7i16384!8i8192", "type": "streetview" },
+      { "provider": "Google Arts & Culture", "url": "https://artsandculture.google.com/asset/hagia-sophia/BgFzNZHhIaQOSw", "type": "web" }
+    ]
+  },
+  {
+    "id": "tikal",
+    "name": "Tikal",
+    "nameLocal": "Tikal",
+    "location": "Petén, Guatemala",
+    "country": "Guatemala",
+    "region": "North America",
+    "type": ["Ancient", "Mayan", "UNESCO"],
+    "description": "One of the largest archaeological sites and urban centers of the pre-Columbian Maya civilization, with towering pyramids rising above the jungle canopy.",
+    "coordinates": { "lat": 17.2220, "lng": -89.6237 },
+    "image": "https://images.unsplash.com/photo-1599577446220-32b8de9b37c3?w=400&q=80",
+    "tours": [
+      { "provider": "Google Street View", "url": "https://www.google.com/maps/@17.2220,-89.6237,3a,75y,0h,90t/data=!3m6!1e1!3m4!1s0x0:0x0!2e0!7i16384!8i8192", "type": "streetview" },
+      { "provider": "YouTube 360°", "url": "https://www.youtube.com/watch?v=5lVqYyVzWvs", "type": "video" }
+    ]
+  },
+  {
+    "id": "forbidden-city",
+    "name": "Forbidden City",
+    "nameLocal": "故宫博物院",
+    "location": "Beijing, China",
+    "country": "China",
+    "region": "Asia",
+    "type": ["Ancient", "Imperial", "UNESCO"],
+    "description": "The world's largest palace complex, served as the imperial palace for 24 emperors during the Ming and Qing dynasties.",
+    "coordinates": { "lat": 39.9163, "lng": 116.3972 },
+    "image": "https://images.unsplash.com/photo-1584646098378-0874589d76b1?w=400&q=80",
+    "tours": [
+      { "provider": "Google Street View", "url": "https://www.google.com/maps/@39.9163,116.3972,3a,75y,0h,90t/data=!3m6!1e1!3m4!1s0x0:0x0!2e0!7i16384!8i8192", "type": "streetview" },
+      { "provider": "Official Virtual Tour", "url": "https://www.dpm.org.cn/360.html", "type": "web" }
+    ]
+  },
+  {
+    "id": "versailles",
+    "name": "Palace of Versailles",
+    "nameLocal": "Château de Versailles",
+    "location": "Versailles, France",
+    "country": "France",
+    "region": "Europe",
+    "type": ["Architecture", "Royal", "UNESCO"],
+    "description": "The opulent royal residence of Louis XIV, featuring the Hall of Mirrors, magnificent gardens, and lavish apartments.",
+    "coordinates": { "lat": 48.8049, "lng": 2.1204 },
+    "image": "https://images.unsplash.com/photo-1551410224-699683e15636?w=400&q=80",
+    "tours": [
+      { "provider": "Google Street View", "url": "https://www.google.com/maps/@48.8049,2.1204,3a,75y,0h,90t/data=!3m6!1e1!3m4!1s0x0:0x0!2e0!7i16384!8i8192", "type": "streetview" },
+      { "provider": "Official Virtual Tour", "url": "https://www.chateauversailles.fr/en/virtual-tours", "type": "web" }
+    ]
+  },
+  {
+    "id": "pyramids-chichen-itza",
+    "name": "Moai of Easter Island",
+    "nameLocal": "Rapa Nui",
+    "location": "Easter Island, Chile",
+    "country": "Chile",
+    "region": "South America",
+    "type": ["Ancient", "Mystery", "UNESCO"],
+    "description": "Nearly 1,000 monumental stone statues (Moai) created by the Rapa Nui people, one of the most isolated inhabited islands on Earth.",
+    "coordinates": { "lat": -27.1127, "lng": -109.3497 },
+    "image": "https://images.unsplash.com/photo-1533632359083-0185df1be85d?w=400&q=80",
+    "tours": [
+      { "provider": "Google Street View", "url": "https://www.google.com/maps/@-27.1127,-109.3497,3a,75y,0h,90t/data=!3m6!1e1!3m4!1s0x0:0x0!2e0!7i16384!8i8192", "type": "streetview" }
+    ]
+  },
+  {
+    "id": "christ-the-redeemer",
+    "name": "Christ the Redeemer",
+    "nameLocal": "Cristo Redentor",
+    "location": "Rio de Janeiro, Brazil",
+    "country": "Brazil",
+    "region": "South America",
+    "type": ["Iconic", "Religious", "Art Deco", "Wonders"],
+    "description": "A 30-meter Art Deco statue of Jesus Christ atop Corcovado mountain, one of the New Seven Wonders of the World.",
+    "coordinates": { "lat": -22.9519, "lng": -43.2105 },
+    "image": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=400&q=80",
+    "tours": [
+      { "provider": "Google Street View", "url": "https://www.google.com/maps/@-22.9519,-43.2105,3a,75y,0h,90t/data=!3m6!1e1!3m4!1s0x0:0x0!2e0!7i16384!8i8192", "type": "streetview" },
+      { "provider": "AirPano", "url": "https://www.airpano.com/360photo/christ-the-redeemer-rio-de-janeiro/", "type": "web" }
+    ]
+  },
+  {
+    "id": "louvre",
+    "name": "Louvre Museum",
+    "nameLocal": "Musée du Louvre",
+    "location": "Paris, France",
+    "country": "France",
+    "region": "Europe",
+    "type": ["Museum", "Art", "Architecture"],
+    "description": "The world's largest art museum and a historic monument, housing 380,000 objects including the Mona Lisa and Venus de Milo.",
+    "coordinates": { "lat": 48.8606, "lng": 2.3376 },
+    "image": "https://images.unsplash.com/photo-1499426600726-7f5b4e56193f?w=400&q=80",
+    "tours": [
+      { "provider": "Google Street View", "url": "https://www.google.com/maps/@48.8606,2.3376,3a,75y,0h,90t/data=!3m6!1e1!3m4!1s0x47e6739b6c5d9c5d:0x1234567890abcdef!2e0!7i16384!8i8192", "type": "streetview" },
+      { "provider": "Official Virtual Tour", "url": "https://www.louvre.fr/en/online-tours", "type": "web" },
+      { "provider": "Google Arts & Culture", "url": "https://artsandculture.google.com/partner/musee-du-louvre", "type": "web" }
+    ]
+  },
+  {
+    "id": "mount-rushmore",
+    "name": "Mount Rushmore",
+    "nameLocal": "Mount Rushmore",
+    "location": "South Dakota, USA",
+    "country": "United States",
+    "region": "North America",
+    "type": ["Monument", "Sculpture", "Iconic"],
+    "description": "A massive sculpture carved into granite featuring the faces of four US presidents: Washington, Jefferson, Roosevelt, and Lincoln.",
+    "coordinates": { "lat": 43.8791, "lng": -103.4591 },
+    "image": "https://images.unsplash.com/photo-1558005530-a7958896ec60?w=400&q=80",
+    "tours": [
+      { "provider": "Google Street View", "url": "https://www.google.com/maps/@43.8791,-103.4591,3a,75y,0h,90t/data=!3m6!1e1!3m4!1s0x0:0x0!2e0!7i16384!8i8192", "type": "streetview" }
+    ]
+  },
+  {
+    "id": "blue-mosque",
+    "name": "Blue Mosque",
+    "nameLocal": "Sultan Ahmed Camii",
+    "location": "Istanbul, Turkey",
+    "country": "Turkey",
+    "region": "Europe",
+    "type": ["Architecture", "Religious", "Ottoman"],
+    "description": "Known for its blue tile interior and six minarets, one of the most iconic mosques in the world, facing the Hagia Sophia.",
+    "coordinates": { "lat": 41.0054, "lng": 28.9768 },
+    "image": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=400&q=80",
+    "tours": [
+      { "provider": "Google Street View", "url": "https://www.google.com/maps/@41.0054,28.9768,3a,75y,0h,90t/data=!3m6!1e1!3m4!1s0x14cab715e7e44e8f:0x1234567890abcdef!2e0!7i16384!8i8192", "type": "streetview" }
+    ]
+  },
+  {
+    "id": "moai-statues",
+    "name": "Tower of London",
+    "nameLocal": "HM Tower of London",
+    "location": "London, England",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "type": ["Castle", "UNESCO", "Medieval"],
+    "description": "A historic castle on the north bank of the Thames, serving as a royal palace, prison, and treasury housing the Crown Jewels.",
+    "coordinates": { "lat": 51.5081, "lng": -0.0759 },
+    "image": "https://images.unsplash.com/photo-1486299267070-83823f5448dd?w=400&q=80",
+    "tours": [
+      { "provider": "Google Street View", "url": "https://www.google.com/maps/@51.5081,-0.0759,3a,75y,0h,90t/data=!3m6!1e1!3m4!1s0x0:0x0!2e0!7i16384!8i8192", "type": "streetview" },
+      { "provider": "Official Virtual Tour", "url": "https://www.hrp.org.uk/tower-of-london/visit/virtual-tour/", "type": "web" }
+    ]
+  }
+]

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Explorer — Historical Places Virtual Tours</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-left">
+      <a href="#" class="logo" onclick="showLanding(); return false;">🌍 Virtual Explorer</a>
+    </div>
+    <nav class="header-center">
+      <div class="view-switcher">
+        <button class="view-btn active" data-view="map" id="mapViewBtn">🗺️ Map</button>
+        <button class="view-btn" data-view="list" id="listViewBtn">📋 List</button>
+      </div>
+    </nav>
+    <div class="header-right">
+      <div class="stats" id="statsBar">
+        <span class="stat">📊 <span id="visitedCount">0</span>/<span id="totalCount">0</span> explored</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- FILTER BAR -->
+  <div class="filter-bar">
+    <div class="search-box">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="searchInput" placeholder="Search places, countries, regions...">
+    </div>
+    <div class="filter-chips" id="filterChips">
+      <button class="chip active" data-filter="all">All</button>
+      <button class="chip" data-filter="Ancient">🏛️ Ancient</button>
+      <button class="chip" data-filter="UNESCO">🏛️ UNESCO</button>
+      <button class="chip" data-filter="Architecture">🏗️ Architecture</button>
+      <button class="chip" data-filter="Religious">⛪ Religious</button>
+      <button class="chip" data-filter="Museum">🎨 Museum</button>
+      <button class="chip" data-filter="Wonders">⭐ Wonders</button>
+    </div>
+    <div class="filter-row">
+      <select id="regionFilter" class="filter-select">
+        <option value="all">All Regions</option>
+        <option value="Europe">Europe</option>
+        <option value="Asia">Asia</option>
+        <option value="Africa">Africa</option>
+        <option value="North America">North America</option>
+        <option value="South America">South America</option>
+        <option value="Middle East">Middle East</option>
+      </select>
+      <select id="visitFilter" class="filter-select">
+        <option value="all">All Places</option>
+        <option value="visited">✅ Visited</option>
+        <option value="unvisited">📌 Not Visited</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <main class="main">
+    <!-- Map View -->
+    <div id="mapView" class="view active">
+      <div id="map"></div>
+    </div>
+
+    <!-- List View -->
+    <div id="listView" class="view">
+      <div class="list-container" id="listContainer"></div>
+    </div>
+  </main>
+
+  <!-- PLACE MODAL -->
+  <div id="placeModal" class="modal" hidden>
+    <div class="modal-backdrop" onclick="closeModal()"></div>
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeModal()">✕</button>
+      <div class="modal-image" id="modalImage"></div>
+      <div class="modal-body">
+        <div class="modal-header">
+          <h2 id="modalName"></h2>
+          <span class="modal-location" id="modalLocation"></span>
+        </div>
+        <div class="modal-tags" id="modalTags"></div>
+        <p class="modal-description" id="modalDescription"></p>
+        
+        <div class="modal-tours">
+          <h3>🌐 Virtual Tours</h3>
+          <div class="tour-list" id="modalTours"></div>
+        </div>
+
+        <div class="modal-actions">
+          <button id="visitBtn" class="btn btn-primary" onclick="toggleVisited()">
+            ✅ Mark as Explored
+          </button>
+          <button class="btn btn-secondary" onclick="copyShareLink()">
+            📋 Share
+          </button>
+        </div>
+
+        <div class="visit-history" id="visitHistory" hidden>
+          <span>📅 First visited: <span id="firstVisit"></span></span>
+          <span>🔄 Visits: <span id="visitCount"></span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST -->
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
