@@ -91,7 +91,7 @@
             View Tours →
           </button>
         </div>
-      `, { closeButton: false });
+      `, { closeButton: true, className: 'dark-popup' });
 
       markers.push(marker);
       marker.addTo(map);
