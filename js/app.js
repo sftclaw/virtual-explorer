@@ -48,6 +48,9 @@
 
     // Render
     render();
+    
+    // Init AOS for list view animations
+    AOS.init({ duration: 400, easing: 'ease-out-cubic', once: true });
   }
 
   // ===== MAP =====
@@ -60,11 +63,11 @@
       zoomControl: false
     });
 
-    // Dark tile layer
+    // Dark tile layer - no attribution overlay
     L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
       subdomains: 'abcd',
-      maxZoom: 19
+      maxZoom: 19,
+      attribution: false
     }).addTo(map);
 
     L.control.zoom({ position: 'bottomright' }).addTo(map);
